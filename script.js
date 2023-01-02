@@ -30,6 +30,6 @@ async function getWeather (){
             `
         }
     }
-    
+      town.value = ""
 }
 btn.addEventListener('click', getWeather)
